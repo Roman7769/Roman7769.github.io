@@ -56,84 +56,132 @@ body{
      padding: 0px 16px;
      margin: 58px 14px 0px 14px;
  }
- .all{
-    text-align: center;
- }
 .resume h3{
+    text-align: center;
+    margin: 107px 897px 30px 890px;  
     font-size: 23px;
     font-weight: bold; 
 }
-.resume{
-    padding-top: 108px;
-    padding-bottom: 97px;
-    padding-left: 598px;
-    padding-right: 593px;
-    margin: 43px, 0px, 0px 0px;   
+.resume img.cherta{
+    margin:0px 915px;
 }
+.resume img.boymini{
+    margin: 40px 860px;
+}
+.resume p{
+    text-align: center;
+    margin: 0px 598px 36px;
+    text-align:left
+}
+
 .resume input{
+    margin: 0px 877px 97px 888px;
+    padding: 20px;
     height: 30px;
     text-align: center;
-    border: 2px solid #6d7682;
-    background: none;
+    border: 1px solid #6d7682;
     border-radius: 5px;
+    background: none;
     color: #6d7682;
     font-size: 8px;
-    padding: 0px 16px;
-    margin: 36px 14px 36px 14px;
+
+}
+.what_i_do h3{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+}
+.what_i_do img.cherta2{
+    margin: 40px 924px;
 }
 .what_i_do{
     padding-top: 107px;
     padding-bottom: 90px;
     background-image: url(../img/what_i_do.jpg) ;
-}
-.what_i_do h3{
-    font-size: 25px;
-    font-weight: 600;
+    background-repeat: no-repeat;
 }
 .cases h2{
+    text-align: center;
     font-size: 25px;
     font-weight: 600;
 }
-.cases{
-    padding-top: 105px;
-    padding-bottom: 100px;
+.cases img.cherta3{
+    margin: 30px 925px 35px 923px; 
+}
+.cases p.casesp{
+    text-align: center;
+    margin: 10px 612px 40px 617px;
+    text-align:left
+}
+.cases img.opencloud{
+    margin: 0px;
+}
+.cases h4{
+    font-size: 30px;
 }
 .calculation h3{
+    text-align: center;
     font-size: 25px;
     font-weight: 600;
 }
-.calculation{
-    padding-top: 100px;
-    padding-bottom: 153px;
+.calculation h4{
+    margin: 49px 0px 22px 498px;
+}
+.calculation select{
+    margin: 0px 0px 0px 494px;
+}
+.calculation p{
+    margin: 0px 0px 0px 494px;
 }
 .statistics h3{
+    text-align: center;
     font-size: 25px;
     font-weight: 600;
+    margin-top: -25px;
+}
+.statistics img.cherta4{
+    margin: 40px 924px;
 }
 .statistics{
-    padding-top: 107px;
+    padding-top: 100px;
     padding-bottom: 101px;
-    background-image: url(../img/statistics.jpg)
+    background-image: url(../img/statistics.jpg);
+    background-repeat: no-repeat;    
 }
 .reviews h3{
+    text-align: center;
     font-size: 25px;
     font-weight: 600;
+}
+.reviews img.cherta5{
+    margin: 40px 924px;
 }
 .reviews{
     padding-top: 105px;
     padding-bottom: 91px;
+    text-align: center;
 }
 .contacts h3{
+    text-align: center;
     font-size: 25px;
     font-weight: 600;
+    color: #fdfcfc;
+}
+.contacts img.cherta6{
+    margin: 20px 924px;
+}
+.contacts p{
+    text-align: center;
+    color: #fdfcfc;
 }
 .contacts{
     padding-top: 107px;
-    padding-bottom: 106px;
-    background-image: url(../img/link.jpg)
-}
+    padding-bottom: 100px;
+    background-image: url(../img/link.jpg);
+    background-repeat: no-repeat;
+    }
 footer{
-    padding-top: 40px;
+    padding-top: 30px;
     padding-bottom: 40px;
     text-align: center;
     background-color: #354051;
